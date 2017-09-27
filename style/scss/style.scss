@@ -404,16 +404,16 @@ $laptop:#a2a2a2;
 .laptop{
   z-index: 12;
   top: 220px;
-  left: -8px;
-  width: 90px;
+  left: -38px;
+  width: 120px;
   height: 10px;
   background: $laptop;
   &:before{
     content: "";
     position: absolute;
-    left: -50px;
+    left: -9px;
     top: -50px;
-    width: 90px;
+    width: 77px;
     height: 50px;
     background: $laptop;
     @include transform( skewX(20deg));
