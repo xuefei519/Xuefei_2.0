@@ -1,6 +1,35 @@
 #home {
-  display: block;
-  background: #ced4dd; }
+  display: flex;
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center; }
+
+.intro {
+  margin-top: 150px; }
+
+@-webkit-keyframes textTyping {
+  from {
+    width: 0; } }
+
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent; } }
+  .intro h1 {
+    font: bold 300% Consolas, Monaco, monospace;
+    border-right: .1em solid white;
+    color: white;
+    width: 21ch;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: textTyping 5s steps(21, end), blink-caret 0.5s step-end infinite alternate; }
+    @media screen and (max-width: 414px) {
+      .intro h1 {
+        font-size: 20px; } }
+    @media screen and (min-width: 414px) {
+      .intro h1 {
+        font-size: 40px; } }
 
 #Xuefei {
   /* Safari 4.0 - 8.0 */
@@ -34,12 +63,10 @@
   #Xuefei .glasses {
     position: absolute; }
   #Xuefei .container {
-    position: relative;
-    margin: auto;
-    top: 0;
+    position: absolute;
+    margin: 30px;
     bottom: 0;
     right: 0;
-    left: 0;
     width: 250px;
     height: 250px; }
   #Xuefei .profile {
