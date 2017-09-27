@@ -1,5 +1,6 @@
-h1{
-  color: blue;
+#home{
+  display: block;
+  background: #ced4dd;
 }
 $skin: #ffd1c2;
 $brown: #452826;
@@ -71,7 +72,7 @@ $laptop:#a2a2a2;
 
 
 .container {
-  position: absolute;
+  position: relative;
   margin: auto;
   top: 0;
   bottom: 0;
@@ -79,23 +80,10 @@ $laptop:#a2a2a2;
   left: 0;
   width: 250px;
   height: 250px;
-
-  //display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  //width: 100%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 .profile {
-  position: absolute;
-  display: block;
+  position: relative;
   width: 250px;
   height: 250px;
   @include border(100%);
