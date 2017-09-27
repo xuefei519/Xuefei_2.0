@@ -1,0 +1,24 @@
+{
+  "name": "xuefei",
+  "version": "2.0.0",
+  "description": "Xuefei's personal page 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/xuefei519/xuefei519.github.io"
+  },
+  "keywords": [
+    "xuefei",
+    "shi"
+  ],
+  "author": "xuefe shi",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
