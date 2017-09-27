@@ -87,7 +87,7 @@ $laptop:#a2a2a2;
   height: 250px;
   @include border(100%);
   border: 2px solid #FFF;
-  overflow: hidden;
+  overflow: hidden!important;
   background: #D0E0EB;
 }
 
@@ -299,7 +299,7 @@ $laptop:#a2a2a2;
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
   border-radius: 0 0 0 5px;
-  @include transform( rotate(5deg));
+  @include transform( rotate(4deg));
   //@include border(100px);
   display: none;
 }
@@ -395,7 +395,7 @@ $laptop:#a2a2a2;
   z-index: 9;
   top: 185px;
   left:45px;
-  @include transform( rotate(5deg));
+  @include transform( rotate(4deg));
 
   @include animation-name(typingBack);
   @include animation-duration(1.5s);
@@ -431,12 +431,12 @@ $laptop:#a2a2a2;
       height: 28px;
       background: red;
       @include border(100px 100px 0 0);
-      @include transform( rotate(-45deg));
+      @include transform( rotate(-44deg));
       @include transform-origin(0 100%);
     }
     &:after{
       left: 0;
-      @include transform( rotate(45deg));
+      @include transform( rotate(44deg));
       @include transform-origin(100% 100%);
     }
 }
@@ -444,25 +444,25 @@ $laptop:#a2a2a2;
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes typing {
   0%   {@include transform( rotate(30deg));@include transform-origin(top right);}
-  50%  {@include transform( rotate(5deg));@include transform-origin(top right);}
+  50%  {@include transform( rotate(4deg));@include transform-origin(top right);}
   100%   {@include transform( rotate(30deg));@include transform-origin(top right);}
 }
 @-webkit-keyframes typingBack{
-  0%   {@include transform( rotate(5deg))@include transform-origin(top right);}
+  0%   {@include transform( rotate(4deg))@include transform-origin(top right);}
   50%  {@include transform( rotate(30deg))@include transform-origin(top right);}
-  100%   {@include transform( rotate(5deg))@include transform-origin(top right);}
+  100%   {@include transform( rotate(4deg))@include transform-origin(top right);}
 }
 
 /* Standard syntax */
 @keyframes typing {
     0%   {@include transform( rotate(30deg));@include transform-origin(top right);}
-    50%  {@include transform( rotate(5deg));@include transform-origin(top right);}
+    50%  {@include transform( rotate(4deg));@include transform-origin(top right);}
     100%   {@include transform( rotate(30deg));@include transform-origin(top right);}
 }
 @keyframes typingBack {
-    0%   {@include transform( rotate(5deg))@include transform-origin(top right);}
+    0%   {@include transform( rotate(4deg))@include transform-origin(top right);}
     50%  {@include transform( rotate(30deg))@include transform-origin(top right);}
-    100%   {@include transform( rotate(5deg))@include transform-origin(top right);}
+    100%   {@include transform( rotate(4deg))@include transform-origin(top right);}
 }
 
 
