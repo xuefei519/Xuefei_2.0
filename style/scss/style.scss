@@ -82,7 +82,7 @@ $laptop:#a2a2a2;
 }
 
 .profile {
-  position: relative;
+  position: absolute;
   width: 250px;
   height: 250px;
   @include border(100%);
@@ -94,7 +94,6 @@ $laptop:#a2a2a2;
 .group {
   left: 60px;
   top: 19px;
-  //overflow: hidden;
 }
 
 .face {
