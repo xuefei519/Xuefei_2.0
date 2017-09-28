@@ -47,16 +47,16 @@ body {
     overflow: hidden;
     width: 0;
     color: white;
-    -webkit-animation: type 1.5s 1s steps(20, end) forwards;
-    -moz-animation: type 1.5s 1s steps(20, end) forwards;
-    -o-animation: type 1.5s 1s steps(20, end) forwards;
-    animation: type 1.5s 1s steps(20, end) forwards; }
+    -webkit-animation: type 1.5s 1.5s steps(20, end) forwards;
+    -moz-animation: type 1.5s 1.5s steps(20, end) forwards;
+    -o-animation: type 1.5s 1.5s steps(20, end) forwards;
+    animation: type 1.5s 1.5s steps(20, end) forwards; }
     @media screen and (max-width: 420px) {
       .intro p {
         font-size: 20px; } }
     @media screen and (min-width: 420px) {
       .intro p {
-        font-size: 40px; } }
+        font-size: 30px; } }
   .intro .cursor {
     color: white;
     -webkit-animation: blink 1s 2s infinite;

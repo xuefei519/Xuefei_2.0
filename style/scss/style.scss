@@ -30,18 +30,6 @@ $break:420px;
   -o-animation: $a;
   animation: $a;
 }
-@mixin animation-name($n){
-  -webkit-animation-name:$n;
-  animation-name:$n;
-}
-@mixin animation-duration($d){
-  -webkit-animation-duration:$d;
-  animation-duration:$d;
-}
-@mixin animation-iteration-count($i){
-  -webkit-animation-iteration-count:$i;
-  animation-iteration-count:$i;
-}
 
 body{
   margin:0;
@@ -84,13 +72,13 @@ p {
   overflow: hidden;
   width: 0;
   color:white;
-  @include animation(type 1.5s 1s steps(20, end) forwards);
+  @include animation(type 1.5s 1.5s steps(20, end) forwards);
 
    @media screen and (max-width: $break) {
     font-size: 20px;
   }
   @media screen and (min-width: $break) {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 .cursor{
