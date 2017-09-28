@@ -1,0 +1,7 @@
+{
+  "name": "typingImg",
+  "short_name": "typingIMg",
+  "description": "a typing animation",
+  "start_url": "/",
+  "display": "standalone"
+}
